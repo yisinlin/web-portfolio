@@ -1,0 +1,19 @@
+
+＠import url(reset.css);
+
+
+/*註解*/
+
+h2{
+	font-size: 56px;
+	color: blue;
+}
+
+.title{
+	font-size: 48px;
+}
+
+
+#example{
+
+}

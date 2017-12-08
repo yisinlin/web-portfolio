@@ -1,0 +1,40 @@
+
+＠import url(reset.css); 
+/*瀏覽器可能會影響視覺 所以要reset掉*/
+
+*{
+	box-sizing: border-box;
+}
+
+section{
+	background-color: #f8f9f9;
+	height: 550px;
+    padding: 78px 30px;
+}
+
+.title{
+	background-color:  #f8f9f9;;
+	font-size: 36px;
+	text-align: center;
+}
+
+.box{
+	width: calc(100% / 3); /*計算寬度除以3*/
+	float: left;
+	margin-top: 25px;
+}
+
+.number{
+	text-align: center;
+	color: #03c4eb;
+	font-size: 48px;
+}
+
+.description{
+	color: #777777;
+	font-size: 16px;
+	text-align: center;
+	font-family: 'Helvetica';
+}
+
+
